@@ -22,6 +22,10 @@ const PostSchema = new mongoose.Schema({
         type: Number,
         default:0
     },
+    price: {
+        type: Number,
+        default:0
+    },
     date: {
         type: Date,
         default:new Date()
